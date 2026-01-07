@@ -46,10 +46,9 @@ const Header = () => {
                 <motion.img
                     whileInView={{ scale: [0, 1] }}
                     transition={{ duration: 1, ease: 'easeInOut' }}
-                    className="app__header-img"
+                    className="overlay_circle"
                     src={images.circle}
                     alt="profile_circle"
-                    className="overlay_circle"
                 />
             </motion.div>
             <motion.div
